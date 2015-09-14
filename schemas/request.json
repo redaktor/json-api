@@ -3,7 +3,7 @@
   "id": "http://jsonapi.org/schemas/request.json",
   "title": "JSON API Schema",
   "description": "This is the schema for requesting in the JSON API format. For more, see http://jsonapi.org ...",
-  "oneOf": [
+  "anyOf": [
     {
       "$ref": "#/definitions/v1_1",
       "description": "put future versions below. internal doc can go here (with $ref other members are ignored) ..."
