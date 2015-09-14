@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://jsonapi.org/schemas/1_1/request.json",
   "title": "JSON API Schema",
-  "description": "This is the base schema for the JSON API format. For more, see http://jsonapi.org",
+  "description": "This is the v 1.1 schema for requesting in the JSON API format. For more, see http://jsonapi.org ...",
   "allOf": [
     {
       "$ref": "#/definitions/request"
@@ -28,7 +28,7 @@
           "uniqueItems": true
         },
         "meta": {
-          "$ref": "http://jsonapi.org/schemas/response.json#/definitions/meta"
+          "$ref": "http://jsonapi.org/schemas/1_1/response.json#/definitions/meta"
         },
         "links": {
           "description": "Link members related to the primary data.",
@@ -37,12 +37,12 @@
               "$ref": "#/definitions/links"
             },
             {
-              "$ref": "http://jsonapi.org/schemas/response.json#/definitions/pagination"
+              "$ref": "http://jsonapi.org/schemas/1_1/response.json#/definitions/pagination"
             }
           ]
         },
         "jsonapi": {
-          "$ref": "http://jsonapi.org/schemas/response.json#/definitions/jsonapi"
+          "$ref": "http://jsonapi.org/schemas/1_1/response.json#/definitions/jsonapi"
         }
       }
     },
@@ -66,7 +66,7 @@
     "resource": {
       "allOf": [
         {
-          "$ref": "http://jsonapi.org/schemas/creation.json#/definitions/resource"
+          "$ref": "http://jsonapi.org/schemas/1_1/creation.json#/definitions/resource"
         },
         {
           "required": [
@@ -110,7 +110,7 @@
               "format": "uri"
             },
             "meta": {
-              "$ref": "http://jsonapi.org/schemas/response.json#/definitions/meta"
+              "$ref": "http://jsonapi.org/schemas/1_1/response.json#/definitions/meta"
             }
           }
         }
@@ -149,7 +149,7 @@
               ]
             },
             "meta": {
-              "$ref": "http://jsonapi.org/schemas/response.json#/definitions/meta"
+              "$ref": "http://jsonapi.org/schemas/1_1/response.json#/definitions/meta"
             }
           },
           "additionalProperties": true
@@ -195,7 +195,7 @@
           "type": "string"
         },
         "meta": {
-          "$ref": "http://jsonapi.org/schemas/response.json#/definitions/meta"
+          "$ref": "http://jsonapi.org/schemas/1_1/response.json#/definitions/meta"
         }
       },
       "additionalProperties": true

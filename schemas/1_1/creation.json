@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://jsonapi.org/schemas/1_1/creation.json",
   "title": "JSON API Schema",
-  "description": "This is a schema for creating (e.g. via POST) in the JSON API format. For more, see http://jsonapi.org",
+  "description": "This is the v 1.1 schema for creating (e.g. via POST) in the JSON API format. For more, see http://jsonapi.org ...",
   "allOf": [
     {
       "$ref": "#/definitions/creation"
