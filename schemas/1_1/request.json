@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://jsonapi.org/schemas/request.json",
+  "id": "http://jsonapi.org/schemas/1_1/request.json",
   "title": "JSON API Schema",
   "description": "This is the base schema for the JSON API format. For more, see http://jsonapi.org",
   "allOf": [
